@@ -39,7 +39,6 @@
         })
             .then(r => r.json())
             .then(resp => {
-                console.log('aca', resp.usuario);
                 localStorage.setItem('email', resp.usuario.correo);
             })
             .catch( console.warn)
