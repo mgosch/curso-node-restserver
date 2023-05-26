@@ -9,7 +9,7 @@ const { crearProducto,
         actualizarProducto, 
         borrarProducto } = require('../controllers/productos');
 
-const { existeCategoriaPorId, existeProductoPorId } = require('../helpers/db-validators');
+const { existeCategoriaPorId, existeProductoPorId } = require('../helpers');
 
 const router = Router();
 
